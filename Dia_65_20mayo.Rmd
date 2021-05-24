@@ -196,6 +196,10 @@ gain <- ganancia(lista_Chance)
 write.table(gain, file = "ResultadosRelativos.txt", row.names = F)
 ```
 
+```{r, eval=FALSE,include=FALSE}
+library(knitr)
+purl("Dia_65_20mayo.Rmd", "main.r")
+```
 
 
 
